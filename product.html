@@ -1,13 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello, World!</h1>
-    <nav><h1>Create page</h1>
-    </nav>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaX Smartwatch | Product Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <span class="brand-mark">N</span>
+          <span>NovaX</span>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">New Arrivals</a>
+          <a href="#">Collections</a>
+          <a href="#">Support</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="icon-btn" aria-label="Search">⌕</button>
+          <button class="icon-btn" aria-label="Wishlist">♡</button>
+          <button class="cart-btn">Cart (2)</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container product-page">
+      <div class="breadcrumb">Home / Wearables / Smartwatch</div>
+
+      <section class="product-layout">
+        <div class="gallery-panel">
+          <div class="main-image">
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=900&q=80" alt="NovaX Smartwatch" />
+          </div>
+          <div class="thumb-row" aria-label="Product thumbnails">
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=400&q=80" alt="Smartwatch front view" />
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400&q=80" alt="Smartwatch side view" />
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80" alt="Smartwatch detail" />
+            <img src="https://images.unsplash.com/photo-1526045478516-99145907023c?auto=format&fit=crop&w=400&q=80" alt="Smartwatch lifestyle shot" />
+          </div>
+        </div>
+
+        <div class="product-info">
+          <p class="eyebrow">New release</p>
+          <h1>NovaX Pulse Pro Smartwatch</h1>
+
+          <div class="rating-row">
+            <div class="stars" aria-label="4.8 out of 5 stars">★★★★★</div>
+            <span>4.8 (1,284 reviews)</span>
+          </div>
+
+          <div class="price-row">
+            <span class="price">$249</span>
+            <span class="old-price">$329</span>
+            <span class="discount">Save 24%</span>
+          </div>
+
+          <p class="short-desc">
+            A premium smartwatch designed for performance, fitness, and everyday style. Track your health, stay connected, and enjoy all-day battery life in a sleek aluminum frame.
+          </p>
+
+          <div class="option-group">
+            <div class="option-header">
+              <span>Color</span>
+              <span>Midnight Black</span>
+            </div>
+            <div class="swatches">
+              <button class="swatch active" style="--swatch:#1c1c1f" aria-label="Midnight Black"></button>
+              <button class="swatch" style="--swatch:#d7d4d0" aria-label="Silver"></button>
+              <button class="swatch" style="--swatch:#7c9a92" aria-label="Forest Green"></button>
+              <button class="swatch" style="--swatch:#d86c4b" aria-label="Terracotta"></button>
+            </div>
+          </div>
+
+          <div class="option-group">
+            <div class="option-header">
+              <span>Size</span>
+              <span>42mm</span>
+            </div>
+            <div class="size-options">
+              <button class="size active">42mm</button>
+              <button class="size">46mm</button>
+            </div>
+          </div>
+
+          <div class="purchase-row">
+            <div class="quantity-box">
+              <button aria-label="Decrease quantity">−</button>
+              <span>1</span>
+              <button aria-label="Increase quantity">+</button>
+            </div>
+            <button class="primary-btn">Add to cart</button>
+            <button class="secondary-btn">Buy now</button>
+          </div>
+
+          <div class="shipping-box">
+            <div>
+              <strong>Free shipping</strong>
+              <span>Orders over $50</span>
+            </div>
+            <div>
+              <strong>2-year warranty</strong>
+              <span>Included in price</span>
+            </div>
+            <div>
+              <strong>30-day return</strong>
+              <span>Easy exchange</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="details-section">
+        <div class="tab-bar">
+          <button class="tab active">Description</button>
+          <button class="tab">Specifications</button>
+          <button class="tab">Reviews</button>
+        </div>
+
+        <div class="details-grid">
+          <div class="details-copy">
+            <h2>Built for every move.</h2>
+            <p>
+              The NovaX Pulse Pro blends premium craftsmanship with everyday utility. With a bright AMOLED display, five-day battery, and advanced wellness tracking, it helps you stay on top of your day from sunrise to sleep.
+            </p>
+            <ul>
+              <li>1.9-inch always-on AMOLED display</li>
+              <li>Heart rate, sleep, stress and SpO2 monitoring</li>
+              <li>GPS + Bluetooth for workouts and navigation</li>
+              <li>Up to 5 days battery life</li>
+              <li>5 ATM water resistance</li>
+            </ul>
+          </div>
+
+          <div class="spec-card">
+            <h3>Product details</h3>
+            <dl>
+              <div><dt>Material</dt><dd>Aluminum + Sapphire Glass</dd></div>
+              <div><dt>Battery</dt><dd>Up to 5 days</dd></div>
+              <div><dt>Connectivity</dt><dd>Bluetooth 5.3, GPS</dd></div>
+              <div><dt>Weight</dt><dd>42g</dd></div>
+              <div><dt>Water resistance</dt><dd>5 ATM</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="related-section">
+        <div class="section-head">
+          <h2>You may also like</h2>
+          <a href="#">View all</a>
+        </div>
+
+        <div class="product-grid">
+          <article class="related-card">
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=600&q=80" alt="AirPods" />
+            <div class="card-info">
+              <h3>NovaBuds Pro</h3>
+              <p>$179</p>
+            </div>
+          </article>
+
+          <article class="related-card">
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=600&q=80" alt="Smart speakers" />
+            <div class="card-info">
+              <h3>Echo Mini</h3>
+              <p>$89</p>
+            </div>
+          </article>
+
+          <article class="related-card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80" alt="Headphones" />
+            <div class="card-info">
+              <h3>Wave Ear Max</h3>
+              <p>$159</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
